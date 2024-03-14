@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afe956cf-94a4-44b0-9bb4-4d04027c33e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode34.java" afterDir="false" />
+    <list default="true" id="afe956cf-94a4-44b0-9bb4-4d04027c33e5" name="Changes" comment="I write a code using binarySearch">
+      <change afterPath="$PROJECT_DIR$/src/CountTheOccurance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Ankitkumar6398"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0d16e0cc-2ecc-43f1-b2fd-cec689046ded" />
+        <option name="url" value="https://github.com/Ankitkumar6398/LeetCode.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
@@ -34,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CountTheOccurance.executor": "Run",
     "Application.LeetCode34.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -47,7 +61,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CountTheOccurance">
+    <configuration name="CountTheOccurance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountTheOccurance" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LeetCode34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode34" />
       <module name="LeetCode" />
@@ -57,6 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountTheOccurance" />
         <item itemvalue="Application.LeetCode34" />
       </list>
     </recent_temporary>
@@ -69,11 +91,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710434085060</updated>
-      <workItem from="1710434086127" duration="2532000" />
+      <workItem from="1710434086127" duration="3739000" />
     </task>
+    <task id="LOCAL-00001" summary="I write a code using binarySearch">
+      <option name="closed" value="true" />
+      <created>1710436725592</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710436725592</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="I write a code using binarySearch" />
+    <option name="LAST_COMMIT_MESSAGE" value="I write a code using binarySearch" />
   </component>
 </project>
