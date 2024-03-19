@@ -17,17 +17,34 @@ public class LeetCode875 {
     public static int minEatingSpeed(int[] piles, int h) {
         Arrays.sort(piles);
         int n = piles[piles.length - 1];
+// using brute Force Approach
 
-        for (int index = 1; index <= n; index++) {
-            int reqTime = fun(piles, index);
+//        for (int index = 1; index <= n; index++) {
+//            int reqTime = fun(piles, index);
+//            if (reqTime <= h) {
+//                return index;
+//            }
+//
+//
+//        }
+
+        // Using Binary Search
+
+
+        int firstIndex = 1;
+        int lastIndex = n;
+        while (firstIndex <= lastIndex) {
+            int mid = firstIndex + ((lastIndex - firstIndex) / 2);
+            int reqTime = fun(piles, mid);
             if (reqTime <= h) {
-                return index;
+                lastIndex = mid - 1;
+
+            } else {
+                firstIndex = mid + 1;
             }
-
-
         }
 
-        return n;
+        return firstIndex;
     }
 
     public static int fun(int[] piles, int hour) {
