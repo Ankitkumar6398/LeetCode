@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afe956cf-94a4-44b0-9bb4-4d04027c33e5" name="Changes" comment="I write a code using binarySearch">
-      <change afterPath="$PROJECT_DIR$/src/CountTheOccurance.java" afterDir="false" />
+    <list default="true" id="afe956cf-94a4-44b0-9bb4-4d04027c33e5" name="Changes" comment="I write a code using binarySearch and minnor change of previous code LeetCode34">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode875.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +23,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Ankitkumar6398"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ankitkumar6398&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -36,9 +37,9 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2dgeKVvsv8X6fydz8ORUQ3dLi45" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,6 +50,7 @@
   "keyToString": {
     "Application.CountTheOccurance.executor": "Run",
     "Application.LeetCode34.executor": "Run",
+    "Application.LeetCode875.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -61,7 +63,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CountTheOccurance">
+  <component name="RunManager" selected="Application.LeetCode875">
     <configuration name="CountTheOccurance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountTheOccurance" />
       <module name="LeetCode" />
@@ -76,8 +78,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LeetCode875" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode875" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode875" />
         <item itemvalue="Application.CountTheOccurance" />
         <item itemvalue="Application.LeetCode34" />
       </list>
@@ -91,7 +101,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710434085060</updated>
-      <workItem from="1710434086127" duration="3739000" />
+      <workItem from="1710434086127" duration="4626000" />
+      <workItem from="1710491558336" duration="10000" />
+      <workItem from="1710867923724" duration="15000" />
+      <workItem from="1710869766473" duration="3548000" />
     </task>
     <task id="LOCAL-00001" summary="I write a code using binarySearch">
       <option name="closed" value="true" />
@@ -101,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710436725592</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="I write a code using binarySearch and minnor change of previous code LeetCode34">
+      <option name="closed" value="true" />
+      <created>1710438573797</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710438573797</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="I write a code using binarySearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="I write a code using binarySearch" />
+    <MESSAGE value="I write a code using binarySearch and minnor change of previous code LeetCode34" />
+    <option name="LAST_COMMIT_MESSAGE" value="I write a code using binarySearch and minnor change of previous code LeetCode34" />
   </component>
 </project>
