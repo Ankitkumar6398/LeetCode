@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afe956cf-94a4-44b0-9bb4-4d04027c33e5" name="Changes" comment="I write a code using binarySearch and minnor change of previous code LeetCode34">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode875.java" afterDir="false" />
+    <list default="true" id="afe956cf-94a4-44b0-9bb4-4d04027c33e5" name="Changes" comment="Upadate and Write the code Optimal Approach">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode1011.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode1283.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +43,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2dgeKVvsv8X6fydz8ORUQ3dLi45" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,10 +53,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CountTheOccurance.executor": "Run",
+    "Application.LeetCode1011.executor": "Run",
+    "Application.LeetCode1283.executor": "Run",
     "Application.LeetCode34.executor": "Run",
     "Application.LeetCode875.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -63,9 +70,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LeetCode875">
+  <component name="RunManager" selected="Application.LeetCode1011">
     <configuration name="CountTheOccurance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountTheOccurance" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode1011" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode1011" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode1283" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode1283" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,6 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode1011" />
+        <item itemvalue="Application.LeetCode1283" />
         <item itemvalue="Application.LeetCode875" />
         <item itemvalue="Application.CountTheOccurance" />
         <item itemvalue="Application.LeetCode34" />
@@ -104,7 +127,10 @@
       <workItem from="1710434086127" duration="4626000" />
       <workItem from="1710491558336" duration="10000" />
       <workItem from="1710867923724" duration="15000" />
-      <workItem from="1710869766473" duration="3548000" />
+      <workItem from="1710869766473" duration="6267000" />
+      <workItem from="1710960705182" duration="1703000" />
+      <workItem from="1710995944205" duration="23000" />
+      <workItem from="1711044322103" duration="1632000" />
     </task>
     <task id="LOCAL-00001" summary="I write a code using binarySearch">
       <option name="closed" value="true" />
@@ -122,7 +148,31 @@
       <option name="project" value="LOCAL" />
       <updated>1710438573797</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="write code of KokoEatingBananas using Brute Force approach">
+      <option name="closed" value="true" />
+      <created>1710873634846</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710873634846</updated>
+    </task>
+    <task id="LOCAL-00004" summary="write code of KokoEatingBananas using Brute Force approach">
+      <option name="closed" value="true" />
+      <created>1710873837953</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710873837953</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Upadate and Write the code Optimal Approach">
+      <option name="closed" value="true" />
+      <created>1710874771223</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710874771223</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +181,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="I write a code using binarySearch" />
     <MESSAGE value="I write a code using binarySearch and minnor change of previous code LeetCode34" />
-    <option name="LAST_COMMIT_MESSAGE" value="I write a code using binarySearch and minnor change of previous code LeetCode34" />
+    <MESSAGE value="write code of KokoEatingBananas using Brute Force approach" />
+    <MESSAGE value="Upadate and Write the code Optimal Approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upadate and Write the code Optimal Approach" />
   </component>
 </project>
