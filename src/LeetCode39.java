@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class LeetCode39 {
@@ -12,7 +13,13 @@ public class LeetCode39 {
         int target = sc.nextInt();
 
 
-        System.out.println(combinationSum(candidates, target));
+        ArrayList<ArrayList<Integer>> list = combinationSum(candidates, target);
+        for(int i = 0; i < list.size(); i++) {
+            for(int j = 0; j < list.get(i).size(); j++) {
+                System.out.print(list.get(i).get(j) + " ");
+            }
+            System.out.println();
+        }
 
     }
 
@@ -30,9 +37,10 @@ public class LeetCode39 {
             }
             return;
         }
-        if (target <= candidates[index]) {
+        if (candidates[index] <= target) {
             combination.add(candidates[index]);
-            findCombination(index, candidates, target, combinations, combination);
+            findCombination(index, candidates, target-candidates[index], combinations, combination);
+            combination.remove(combination.size() - 1);
         }
         findCombination(index + 1, candidates, target, combinations, combination);
 

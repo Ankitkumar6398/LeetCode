@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afe956cf-94a4-44b0-9bb4-4d04027c33e5" name="Changes" comment=" Write the code Optimal Approach O(logn)">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode1283.java" afterDir="false" />
+    <list default="true" id="afe956cf-94a4-44b0-9bb4-4d04027c33e5" name="Changes" comment="write using recursion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode39.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,14 +29,12 @@
     &quot;assignee&quot;: &quot;Ankitkumar6398&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="0d16e0cc-2ecc-43f1-b2fd-cec689046ded" />
-        <option name="url" value="https://github.com/Ankitkumar6398/LeetCode.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Ankitkumar6398/LeetCode.git",
+    "accountId": "0d16e0cc-2ecc-43f1-b2fd-cec689046ded"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -49,27 +46,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CountTheOccurance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeetCode1011.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeetCode1283.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeetCode34.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeetCode875.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CountTheOccurance.executor": "Run",
+    "Application.LeetCode1011.executor": "Run",
+    "Application.LeetCode1283.executor": "Run",
+    "Application.LeetCode34.executor": "Run",
+    "Application.LeetCode39.executor": "Run",
+    "Application.LeetCode875.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.LeetCode1011">
+}]]></component>
+  <component name="RunManager" selected="Application.LeetCode39">
     <configuration name="CountTheOccurance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountTheOccurance" />
       <module name="LeetCode" />
@@ -91,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode34" />
+    <configuration name="LeetCode39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode39" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,13 +105,21 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode39" />
         <item itemvalue="Application.LeetCode1011" />
         <item itemvalue="Application.LeetCode1283" />
         <item itemvalue="Application.LeetCode875" />
         <item itemvalue="Application.CountTheOccurance" />
-        <item itemvalue="Application.LeetCode34" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -133,6 +139,7 @@
       <workItem from="1711965430843" duration="8000" />
       <workItem from="1712168969293" duration="1150000" />
       <workItem from="1712205357073" duration="226000" />
+      <workItem from="1712782058629" duration="738000" />
     </task>
     <task id="LOCAL-00001" summary="I write a code using binarySearch">
       <option name="closed" value="true" />
@@ -182,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711046032165</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="write using recursion">
+      <option name="closed" value="true" />
+      <created>1712782169580</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712782169580</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +209,7 @@
     <MESSAGE value="write code of KokoEatingBananas using Brute Force approach" />
     <MESSAGE value="Upadate and Write the code Optimal Approach" />
     <MESSAGE value=" Write the code Optimal Approach O(logn)" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Write the code Optimal Approach O(logn)" />
+    <MESSAGE value="write using recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="write using recursion" />
   </component>
 </project>
