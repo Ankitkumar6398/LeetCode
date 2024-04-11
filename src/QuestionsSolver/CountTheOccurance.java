@@ -1,4 +1,4 @@
-// Count Number of Occurance using BinarySearch
+package QuestionsSolver;// Count Number of Occurance using BinarySearch
 import java.util.Scanner;
 public class CountTheOccurance {
 

@@ -1,3 +1,5 @@
+package QuestionsSolver;
+
 import java.util.Scanner;
 
 // first and Last Occurance in Sorted Array
