@@ -13,12 +13,12 @@ public class SubsetSum2 {
         for (int i = 0; i < size; i++) {
             arr[i] = scanner.nextInt();
         }
-        List<List<Integer>> answer = subsetWithDup(arr);
+        List<List<Integer>> answer = subsetsWithDup(arr);
         System.out.println(answer.toString().replace(",", " "));
 
     }
 
-    public static List<List<Integer>> subsetWithDup(int[] arr) {
+    public static List<List<Integer>> subsetsWithDup(int[] arr) {
         Arrays.sort(arr);
         List<List<Integer>> result = new ArrayList<>();
         findSubset(0, arr, new ArrayList<>(), result);
