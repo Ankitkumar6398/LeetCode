@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afe956cf-94a4-44b0-9bb4-4d04027c33e5" name="Changes" comment="write using recursion and update">
-      <change afterPath="$PROJECT_DIR$/src/SubsetSum1.java" afterDir="false" />
+    <list default="true" id="afe956cf-94a4-44b0-9bb4-4d04027c33e5" name="Changes" comment="made a package">
+      <change afterPath="$PROJECT_DIR$/src/QuestionsSolver/SubsetSum2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,7 @@
     "Application.LeetCode39.executor": "Run",
     "Application.LeetCode875.executor": "Run",
     "Application.SubsetSum1.executor": "Run",
+    "Application.SubsetSum2.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -69,16 +70,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SubsetSum1">
-    <configuration name="LeetCode1011" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode1011" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SubsetSum2">
     <configuration name="LeetCode1283" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode1283" />
+      <option name="MAIN_CLASS_NAME" value="QuestionsSolver.LeetCode1283" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,26 +86,39 @@
       </method>
     </configuration>
     <configuration name="LeetCode39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode39" />
+      <option name="MAIN_CLASS_NAME" value="QuestionsSolver.LeetCode39" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SubsetSum1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SubsetSum1" />
+      <option name="MAIN_CLASS_NAME" value="QuestionsSolver.SubsetSum1" />
       <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubsetSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuestionsSolver.SubsetSum2" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QuestionsSolver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubsetSum2" />
         <item itemvalue="Application.SubsetSum1" />
         <item itemvalue="Application.LeetCode35" />
         <item itemvalue="Application.LeetCode39" />
         <item itemvalue="Application.LeetCode1283" />
-        <item itemvalue="Application.LeetCode1011" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +149,9 @@
       <workItem from="1712168969293" duration="1150000" />
       <workItem from="1712205357073" duration="226000" />
       <workItem from="1712782058629" duration="1294000" />
-      <workItem from="1712863371474" duration="2854000" />
+      <workItem from="1712863371474" duration="3259000" />
+      <workItem from="1712910901695" duration="11000" />
+      <workItem from="1713036262322" duration="2938000" />
     </task>
     <task id="LOCAL-00001" summary="I write a code using binarySearch">
       <option name="closed" value="true" />
@@ -224,7 +233,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712866155576</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="read, write and pull using recursion">
+      <option name="closed" value="true" />
+      <created>1712867018518</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712867018518</updated>
+    </task>
+    <task id="LOCAL-00012" summary="made a package">
+      <option name="closed" value="true" />
+      <created>1712867257756</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712867257756</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +263,8 @@
     <MESSAGE value=" Write the code Optimal Approach O(logn)" />
     <MESSAGE value="write using recursion" />
     <MESSAGE value="write using recursion and update" />
-    <option name="LAST_COMMIT_MESSAGE" value="write using recursion and update" />
+    <MESSAGE value="read, write and pull using recursion" />
+    <MESSAGE value="made a package" />
+    <option name="LAST_COMMIT_MESSAGE" value="made a package" />
   </component>
 </project>
