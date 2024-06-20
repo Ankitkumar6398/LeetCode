@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afe956cf-94a4-44b0-9bb4-4d04027c33e5" name="Changes" comment="made a package">
-      <change afterPath="$PROJECT_DIR$/src/QuestionsSolver/SubsetSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsSolver/LeetCode73.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsSolver/PalidromePartitioning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +56,8 @@
     "Application.LeetCode35.executor": "Run",
     "Application.LeetCode39.executor": "Run",
     "Application.LeetCode875.executor": "Run",
+    "Application.PalidromePartitioning.executor": "Run",
+    "Application.SetMatrixesZero.executor": "Run",
     "Application.SubsetSum1.executor": "Run",
     "Application.SubsetSum2.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -70,14 +73,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SubsetSum2">
-    <configuration name="LeetCode1283" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QuestionsSolver.LeetCode1283" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="LeetCode35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode35" />
       <module name="LeetCode" />
@@ -88,6 +84,19 @@
     <configuration name="LeetCode39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QuestionsSolver.LeetCode39" />
       <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalidromePartitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuestionsSolver.PalidromePartitioning" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QuestionsSolver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalidromePartitioning" />
         <item itemvalue="Application.SubsetSum2" />
         <item itemvalue="Application.SubsetSum1" />
         <item itemvalue="Application.LeetCode35" />
         <item itemvalue="Application.LeetCode39" />
-        <item itemvalue="Application.LeetCode1283" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +161,11 @@
       <workItem from="1712863371474" duration="3259000" />
       <workItem from="1712910901695" duration="11000" />
       <workItem from="1713036262322" duration="2938000" />
+      <workItem from="1713197760210" duration="14000" />
+      <workItem from="1713207640334" duration="2313000" />
+      <workItem from="1713263748385" duration="7000" />
+      <workItem from="1713266568972" duration="21000" />
+      <workItem from="1718905793409" duration="1470000" />
     </task>
     <task id="LOCAL-00001" summary="I write a code using binarySearch">
       <option name="closed" value="true" />
@@ -255,6 +269,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="I write a code using binarySearch" />
     <MESSAGE value="I write a code using binarySearch and minnor change of previous code LeetCode34" />
@@ -266,5 +291,20 @@
     <MESSAGE value="read, write and pull using recursion" />
     <MESSAGE value="made a package" />
     <option name="LAST_COMMIT_MESSAGE" value="made a package" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/QuestionsSolver/PalidromePartitioning.java</url>
+          <line>7</line>
+          <properties class="QuestionsSolver.PalidromePartitioning" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
